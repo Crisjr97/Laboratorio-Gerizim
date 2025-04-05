@@ -1,156 +1,159 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio Clínico GERIZIM</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header, footer { background: #0077b6; color: white; text-align: center; padding: 15px; position: relative; }
-        nav { background: #023e8a; padding: 10px; text-align: center; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; }
-        section { padding: 20px; }
-        .container { width: 80%; margin: auto; }
-        img { width: 100%; max-width: 600px; display: block; margin: 10px auto; }
-        .logo { position: absolute; top: 20px; right: 25px; width: 115px; height: 110px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorio Clínico GERIZIM</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #0077b6; color: white; text-align: center; padding: 15px; position: relative; }
+    nav { background: #023e8a; padding: 10px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; }
+    section { padding: 20px 0; }
+    .container { width: 90%; max-width: 1200px; margin: auto; }
+    img { width: 100%; max-width: 600px; display: block; margin: 10px auto; border-radius: 10px; }
+    .logo { position: absolute; top: 15px; right: 25px; width: 115px; height: 110px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .item { text-align: center; }
+    .item p { margin-top: 10px; }
+    ul { columns: 2; padding-left: 40px; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Laboratorio de análisis Clínico GERIZIM</h1>
-        <p>Comprometidos con tu salud</p>
-        <img src="Imagenes/Logo Gerizim.png" alt="Logo del Laboratorio" class="logo">
-    </header>
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#instalaciones">Instalaciones</a>
-        <a href="#contacto">Contacto</a>
-		<a href="#Horarios">Horarios</a>
-    </nav>
-    
+  <header>
+    <h1>Laboratorio de análisis Clínico GERIZIM</h1>
+    <p>Comprometidos con tu salud</p>
+    <img src="Imagenes/Logo Gerizim.png" alt="Logo del Laboratorio" class="logo">
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#instalaciones">Instalaciones</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#horarios">Horarios</a>
+  </nav>
+
+  <main>
     <section id="inicio" class="container">
-        <h2>Bienvenidos</h2>
-        <p>Somos un laboratorio clínico de confianza que ofrece exámenes de alta calidad para el diagnóstico y control de diversas enfermedades.</p>
-      <img src="Imagenes/Bienvenidos.jpg" alt="Bienvenida al Laboratorio" width="396" height="700">
+      <h2>Bienvenidos</h2>
+      <p>Somos un laboratorio clínico de confianza que ofrece exámenes de alta calidad para el diagnóstico y control de diversas enfermedades.</p>
+      <img src="Imagenes/Bienvenidos.jpg" alt="Bienvenida al Laboratorio">
     </section>
-    
+
     <section id="servicios" class="container">
-        <h2>Nuestros Servicios</h2>
-	     <div class="grid">
-            <div>
-		    <img src="Imagenes/6.jpg" alt="">
-		      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de espera cómoda y climatizada.</p>
-            </div>
-                <img src="Imagenes/2.jpg" alt="Pruebas de Embarazo">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de espera cómoda y climatizada.</p>
-            </div>
-            <div>
-              <img src="Imagenes/5.jpg" alt="Nivel de azúcar">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Área de recepción con atención personalizada.</p>
-            </div>
-            <div>
-              <img src="Imagenes/3.jpg" alt="Hemograma Completo, Examen general de Heces, Examen general de Orina">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Laboratorio principal con equipos de última tecnología.</p>
-            </div>
-            <div>
-              <img src="Imagenes/1.jpg" alt="TSH, T3, T4">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de toma de muestras con privacidad.&nbsp;</p>
-            </div>
+      <h2>Nuestros Servicios</h2>
+      <div class="grid">
+        <div class="item">
+          <img src="Imagenes/6.jpg" alt="Sala de espera">
+          <p>Sala de espera cómoda y climatizada.</p>
         </div>
-	      <img src="Imagenes/7.jpg" alt="VIH, VDRIL (Sífilis), Hepatitis B">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de toma de muestras con privacidad.&nbsp;</p>
-            </div>
+        <div class="item">
+          <img src="Imagenes/2.jpg" alt="Pruebas de Embarazo">
+          <p>Pruebas de embarazo rápidas y confiables.</p>
         </div>
-	      <img src="Imagenes/8.jpg" alt="PSA">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de toma de muestras con privacidad.&nbsp;</p>
-            </div>
+        <div class="item">
+          <img src="Imagenes/5.jpg" alt="Nivel de azúcar">
+          <p>Área de recepción con atención personalizada.</p>
         </div>
-	      <img src="Imagenes/10.jpg" alt="">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de toma de muestras con privacidad.&nbsp;</p>
-            </div>
+        <div class="item">
+          <img src="Imagenes/3.jpg" alt="Hemograma y otros exámenes">
+          <p>Laboratorio principal con equipos de última tecnología.</p>
         </div>
-	      <img src="Imagenes/9.jpg" alt="">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de toma de muestras con privacidad.&nbsp;</p>
-            </div>
+        <div class="item">
+          <img src="Imagenes/1.jpg" alt="Hormonas tiroideas">
+          <p>Sala de toma de muestras con privacidad.</p>
         </div>
+        <div class="item">
+          <img src="Imagenes/7.jpg" alt="VIH, VDRL, Hepatitis">
+          <p>Pruebas rápidas y seguras para ITS y Hepatitis.</p>
+        </div>
+        <div class="item">
+          <img src="Imagenes/8.jpg" alt="PSA">
+          <p>Detección de antígeno prostático (PSA).</p>
+        </div>
+        <div class="item">
+          <img src="Imagenes/10.jpg" alt="Sala de toma de muestras">
+          <p>Sala de toma de muestras con privacidad.</p>
+        </div>
+        <div class="item">
+          <img src="Imagenes/9.jpg" alt="Zona de análisis">
+          <p>Área de análisis clínico bien equipada.</p>
+        </div>
+      </div>
+      <h3>Lista de exámenes disponibles:</h3>
+      <ul>
+        <li>Hemograma Completo</li>
+        <li>Examen general de Heces</li>
+        <li>Examen general de Orina</li>
+        <li>Pruebas de Embarazo</li>
+        <li>Helicobacter pylory en sangre</li>
+        <li>Helicobacter pylory en heces</li>
+        <li>VIH</li>
+        <li>Glucosa</li>
+        <li>Colesterol total</li>
+        <li>Colesterol HDL</li>
+        <li>Colesterol LDL</li>
+        <li>Pruebas de COVID-19</li>
+        <li>Triglicéridos</li>
+        <li>Ácido úrico</li>
+        <li>Creatinina</li>
+        <li>Urea</li>
+        <li>BUN</li>
+        <li>TGO</li>
+        <li>TGP</li>
+        <li>RPR</li>
+        <li>ASO</li>
+        <li>FR</li>
+        <li>Tipo y RH</li>
+        <li>PSA</li>
+        <li>HbA1c</li>
+        <li>TSH</li>
+        <li>T3</li>
+        <li>T4</li>
+      </ul>
     </section>
-        <ul>
-            <li>Hemograma Completo</li>
-            <li>Examen general de Heces</li>
-            <li>Examen general de Orina</li>
-            <li>Pruebas de Embarazo</li>
-            <li>Helicobacter pylory en sangre</li>
-            <li>Helicobacter pylory en heces</li>
-			<li>VIH</li>
-            <li>Glucosa</li>
-            <li>Colesterol total</li>
-            <li>Colesterol HDL</li>
-            <li>Colesterol LDL</li>
-            <li>Pruebas de COVID-19</li>
-			<li>Trigliceridos</li>
-            <li>Acido urico</li>
-            <li>Creatina</li>
-            <li>Urea</li>
-            <li>BUN</li>
-            <li>TGO</li>
-			<li>TGP</li>
-            <li>RPR</li>
-            <li>ASO</li>
-            <li>FR</li>
-            <li>Tipo y RH</li>
-            <li>PSA</li>
-			 <li>HbA1c</li>
-            <li>TSH</li>
-            <li>T3</li>
-            <li>T4</li>
-        </ul>
-     
-    </section>
-    
 
     <section id="instalaciones" class="container">
-        <h2>Nuestras Instalaciones</h2>
-        <p>Contamos con equipos de última tecnología y un ambiente cómodo para la realización de sus exámenes.</p>
-        <div class="grid">
-            <div>
-                <img src="Imagenes/Sala de espera.jpg" alt="Sala de espera">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de espera cómoda y climatizada.</p>
-            </div>
-            <div>
-              <img src="Imagenes/Recepción.jpg" alt="Área de recepción">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Área de recepción con atención personalizada.</p>
-            </div>
-            <div>
-              <img src="Imagenes/Laboratorio.jpg" alt="Laboratorio principal">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Laboratorio principal con equipos de última tecnología.</p>
-            </div>
-            <div>
-              <img src="Imagenes/Toma de muestra.jpg" alt="Zona de análisis clínico">
-                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sala de toma de muestras con privacidad.&nbsp;</p>
-            </div>
+      <h2>Nuestras Instalaciones</h2>
+      <p>Contamos con equipos de última tecnología y un ambiente cómodo para la realización de sus exámenes.</p>
+      <div class="grid">
+        <div class="item">
+          <img src="Imagenes/Sala de espera.jpg" alt="Sala de espera">
+          <p>Sala de espera cómoda y climatizada.</p>
         </div>
+        <div class="item">
+          <img src="Imagenes/Recepción.jpg" alt="Área de recepción">
+          <p>Área de recepción con atención personalizada.</p>
+        </div>
+        <div class="item">
+          <img src="Imagenes/Laboratorio.jpg" alt="Laboratorio principal">
+          <p>Laboratorio con equipos modernos y confiables.</p>
+        </div>
+        <div class="item">
+          <img src="Imagenes/Toma de muestra.jpg" alt="Zona de análisis clínico">
+          <p>Sala de toma de muestras con privacidad.</p>
+        </div>
+      </div>
     </section>
-    
+
     <section id="contacto" class="container">
-        <h2>Contacto</h2>
-        <p>Dr.Bryan Borjas</p>
-        <p>Teléfono: +504 9657-9025</p>
-        <p>Email: laboratoriogerizim@gmail.com</p>
-        <p>Dirección: Villa Santa, Danlí, El Paraíso</p>
-    
+      <h2>Contacto</h2>
+      <p><strong>Dr. Bryan Borjas</strong></p>
+      <p>Teléfono: +504 9657-9025</p>
+      <p>Email: laboratoriogerizim@gmail.com</p>
+      <p>Dirección: Villa Santa, Danlí, El Paraíso</p>
     </section>
-	
-    <section id="Horarios" class="container">
-        <h2>Horarios de atención</h2>
-        <p>Lunes a Viernes</p>
-        <p>7:00a.m. a 5:00p.m.</p>
-        <p>Sábados:</p>
-        <p>7:00a.m. a 12:00p.m.</p>
-    
+
+    <section id="horarios" class="container">
+      <h2>Horarios de atención</h2>
+      <p><strong>Lunes a Viernes:</strong> 7:00 a.m. a 5:00 p.m.</p>
+      <p><strong>Sábados:</strong> 7:00 a.m. a 12:00 p.m.</p>
     </section>
-<footer>
-  <p>&copy; 2025 Laboratorio Clínico GERIZIM - Todos los derechos reservados</p>
-    </footer>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Laboratorio Clínico GERIZIM - Todos los derechos reservados</p>
+  </footer>
 </body>
 </html>
